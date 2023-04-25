@@ -14,7 +14,7 @@ export type TCard = {
   salePriceU: number;
   rating: number;
   feedbacks: number;
-  graph: [
+  graph?: [
     {
       date: string;
       amount: number;

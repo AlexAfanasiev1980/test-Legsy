@@ -8,3 +8,47 @@ body {
   scrollbar-width: 8px;
   scrollbar-color: #869ba9;
 }
+
+.ag-theme-alpine .ag-header {
+  --ag-header-background-color: white;
+  --ag-header-column-separator-display: block;
+  --ag-borders-input: none;
+  --ag-input-disabled-background-color: none;
+}
+
+.ag-theme-alpine .ag-icon {
+  --ag-icon-font-family: agGridMaterial;
+}
+
+.ag-theme-alpine .ag-header-cell {
+  font-size: 12px;
+}
+
+.ag-header-cell-filtered {
+  background-color: #1b6d85 !important;
+  color: #fff !important;
+}
+
+.ag-header-cell-filtered span {
+  color: #fff !important;
+}
+
+.ag-theme-alpine .ag-input-field-input {
+  border-color: #fff;
+}
+
+.ag-theme-alpine .ag-cell[col-id='Номенклатура'] {
+  --ag-cell-horizontal-border: solid var(--ag-secondary-border-color);
+}
+
+.ag-theme-alpine .ag-header-cell::after {
+  background-color: #fff;
+}
+
+.ag-theme-alpine .ag-header-cell[col-id='Номенклатура']::after {
+  background-color: var(--ag-secondary-border-color);
+}
+
+.ag-theme-alpine .ag-header-cell[aria-colindex='2']::after {
+  background-color: var(--ag-secondary-border-color);
+}
