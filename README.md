@@ -1,2 +1,2 @@
 # test-Legsy
-# Запуск проекта - nmp i && npm start
+# Запуск проекта - npm i && npm start
